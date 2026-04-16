@@ -23,7 +23,7 @@ export default function RainRunner() {
               STORM<br />SHELL
             </h2>
             <p className="text-[13px] leading-[1.8] text-[#999] mb-5 font-light">
-              3-lags regnjakke. Vevd for norsk høst. Semet taping, YKK-glidelås, pakkes til ingenting.
+              3-layer shell built for Norwegian autumn. Seam-sealed, YKK zip, packs to nothing.
             </p>
             <div className="flex items-baseline gap-3">
               <span className="font-mono text-[16px]">1 899 NOK</span>

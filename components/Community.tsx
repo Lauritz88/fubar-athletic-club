@@ -15,7 +15,7 @@ export default function Community() {
             IKKE ET MERKE.<br />ET CREW.
           </h2>
           <p className="text-[12px] leading-[1.8] text-[#777] mt-5 max-w-[260px] mx-auto font-light">
-            Vi møtes i mørket. Vi løper når det regner. Vi heier på hverandre hele veien.
+            We meet in the dark. We run when it rains. We push each other all the way.
           </p>
         </FadeIn>
       </div>

@@ -19,10 +19,10 @@ export default function EmailSignup() {
           <div className="font-mono text-[8px] tracking-[5px] text-accent mb-4">DROP 001 · SUMMER 2026</div>
           <h2 className="font-mono text-[clamp(18px,5vw,26px)] tracking-[6px] mb-3">GET NOTIFIED</h2>
           <p className="text-[12px] text-[#555] leading-[1.8] mb-8 font-light">
-            Når drop 001 er klar, sender vi én melding. Ingen spam.
+            When drop 001 is ready, we send one message. No spam.
           </p>
           {sent ? (
-            <p className="font-mono text-[10px] tracking-[4px] text-accent">DU ER PÅ LISTA.</p>
+            <p className="font-mono text-[10px] tracking-[4px] text-accent">YOU&apos;RE ON THE LIST.</p>
           ) : (
             <form onSubmit={handleSubmit} className="flex gap-[1px]">
               <input
@@ -30,7 +30,7 @@ export default function EmailSignup() {
                 required
                 value={email}
                 onChange={e => setEmail(e.target.value)}
-                placeholder="din@epost.no"
+                placeholder="your@email.com"
                 className="flex-1 bg-[#111] border border-[#1c1c1c] px-4 py-3 text-[11px] text-[#999] font-mono tracking-[1px] placeholder:text-[#333] outline-none focus:border-[#333] transition-colors"
               />
               <button
